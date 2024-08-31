@@ -1,0 +1,15 @@
+pkgbase = powerctl
+	pkgdesc = Manages power.
+	pkgver = 0.0.0.0.0.0.0.0.0.0.0.0.0.1
+	pkgrel = 1
+	url = https://github.com/themartiancompany/powerctl
+	arch = any
+	license = AGPL3
+	checkdepends = shellcheck
+	makedepends = make
+	depends = displayctl
+	source = powerctl-256cac76940a943bf4ed4023fad017abe730e23c.zip::https://github.com/themartiancompany/powerctl/archive/256cac76940a943bf4ed4023fad017abe730e23c.zip
+	validpgpkeys = 97E989E6CF1D2C7F7A41FF9F95684DBE23D6A3E9
+	sha256sums = 573ecbc080181eef4c2fbb5191f6d12cb5e6c10f991224ed2ca37c3a29c06511
+
+pkgname = powerctl
